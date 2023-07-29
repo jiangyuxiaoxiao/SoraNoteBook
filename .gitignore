@@ -1,0 +1,16 @@
+.vuepress/.cache
+.vuepress/.temp
+node_modules
+/yarn.lock
+/.vuepress/dist/
+/Company/
+/Release/Static/
+
+/.vuepress/public/Company/
+/Release/build.py
+/Dockerfile
+/.idea/.gitignore
+/.idea/fileTemplates/MarkDown.md
+/.idea/modules.xml
+/.idea/NoteBook.iml
+/.idea/vcs.xml
