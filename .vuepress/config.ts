@@ -4,6 +4,7 @@ import recoTheme from "vuepress-theme-reco";
 
 
 export default defineUserConfig({
+    head: [['link', {rel: 'icon', href: '/SoraIcon.jpg'}]],
     title: "Sora的笔记本",
     description: "Just playing around",
     theme: recoTheme({
@@ -22,23 +23,46 @@ export default defineUserConfig({
             "/docs/BackEnd/Python/": [
                 {
                     text: "首页",
-                    children: ["Python"],
+                    children: ["/docs/BackEnd/Python/Python"],
                 },
                 {
                     text: "基础语法",
-                    children: ["Python-1"],
+                    children: ["/docs/BackEnd/Python/Python-1"],
                 },
                 {
                     text: "爬虫",
                     children: ["/docs/BackEnd/Python/Spider/Spider"],
                 },
-            ],
-            // Python爬虫笔记本
-            "/docs/BackEnd/Python/Spider": [
                 {
-                    text: "Python爬虫笔记本",
-                    children: ["Spider", "Basic"],
+                    text: "数据分析",
+                    children: ["/docs/BackEnd/Python/DataAnalysis/Pandas"],
                 },
+                {
+                    text: "办公自动化",
+                    children: ["/docs/BackEnd/Python/Office/xlwings"],
+                }
+            ],
+            // Java笔记本
+            "/docs/BackEnd/Java/": [
+                {
+                    text: "首页",
+                    children: ["/docs/BackEnd/Java/Java"],
+                },
+                {
+                    text: "Java语法笔记",
+                    children: ["/docs/BackEnd/Java/Object",
+                        "/docs/BackEnd/Java/Collection",
+                        "/docs/BackEnd/Java/Generics"],
+                },
+                {
+                    text: "Java应用笔记",
+                    children: ["/docs/BackEnd/Java/Web"],
+                },
+                {
+                    text: "SpringBoot笔记",
+                    children: ["/docs/BackEnd/Java/SpringBoot/MVC"],
+                }
+
             ],
             // Vue笔记本
             "/docs/FrontEnd/Vue/": [
@@ -82,8 +106,8 @@ export default defineUserConfig({
             {
                 text: "算法",
                 children: [
-                    {text:"算法", link: "/docs/Algorithm/Algorithm"},
-                    {text:"数据结构", link: "/docs/DataStructure/DataStructure"}
+                    {text: "算法", link: "/docs/Algorithm/Algorithm"},
+                    {text: "数据结构", link: "/docs/DataStructure/DataStructure"}
                 ]
             },
             {

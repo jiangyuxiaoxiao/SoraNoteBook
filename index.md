@@ -4,7 +4,7 @@ modules:
   - BannerBrand
   - MdContent
 bannerBrand:
-  bgImage: 'Src/bg2.jpeg'
+  bgImage: 'bg.svg'
   title: Sora笔记
   description: 
   buttons:

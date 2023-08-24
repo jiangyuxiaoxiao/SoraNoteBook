@@ -14,3 +14,10 @@ node_modules
 /.idea/modules.xml
 /.idea/NoteBook.iml
 /.idea/vcs.xml
+/Release/linuxRelease.bat
+/Sora-info/Hiyori.pem
+/.idea/deployment.xml
+/.idea/pandoc.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/sshConfigs.xml
+/.idea/webServers.xml
